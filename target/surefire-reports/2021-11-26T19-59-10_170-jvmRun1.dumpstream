@@ -1,0 +1,76 @@
+# Created at 2021-11-26T19:59:31.878
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2021-11-26T19:59:32.756
+Unexpected IOException with stream: Nov 26, 2021 7:59:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2021-11-26T19:59:32.800
+Unexpected IOException with stream: Nov 26, 2021 7:59:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 96, so returning the closest version found: 95
+
+
+# Created at 2021-11-26T19:59:32.801
+Unexpected IOException with stream: Nov 26, 2021 7:59:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 96 of 95
+
+
+# Created at 2021-11-26T19:59:35.225
+Unexpected IOException: 8,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,BaseTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,unknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=96.0.4664.45)\000ABuild info: version: '4.0.0'\002C revision: '3a21814679'\000ASystem info: host: 'DESKTOP-GEM2PDO'\002C ip: '192.168.211.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_291'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [a07f4b75eef28ae6785d8ae04d4bc409\002C get {url=http://www.musala.com/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 96.0.4664.45\002C chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46...\002C userDataDir: C:\005CUsers\005Csoft\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:1035}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:1035/devtool...\002C se:cdpVersion: 96.0.4664.45\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: a07f4b75eef28ae6785d8ae04d4bc409,null,unknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=96.0.4664.45)\000ABuild info: version: '4.0.0'\002C revision: '3a21814679'\000ASystem info: host: 'DESKTOP-GEM2PDO'\002C ip: '192.168.211.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_291'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [a07f4b75eef28ae6785d8ae04d4bc409\002C get {url=http://www.musala.com/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 96.0.4664.45\002C chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46...\002C userDataDir: C:\005CUsers\005Csoft\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:1035}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:1035/devtool...\002C se:cdpVersion: 96.0.4664.45\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: a07f4b75eef28ae6785d8ae04d4bc409,AssignmentTests.BaseTest:43 \00BB WebDriver unknown error: cannot determine loadin...,org.openqa.selenium.WebDriverException: \000Aunknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=96.0.4664.45)\000ABuild info: version: '4.0.0'\002C revision: '3a21814679'\000ASystem info: host: 'DESKTOP-GEM2PDO'\002C ip: '192.168.211.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_291'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [a07f4b75eef28ae6785d8ae04d4bc409\002C get {url=http://www.musala.com/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 96.0.4664.45\002C chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46...\002C userDataDir: C:\005CUsers\005Csoft\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:1035}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:1035/devtool...\002C se:cdpVersion: 96.0.4664.45\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: a07f4b75eef28ae6785d8ae04d4bc409\000A\0009at MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests.BaseTest(AssignmentTests.java:43)\000A
+
+
+# Created at 2021-11-26T19:59:35.230
+Unexpected IOException: 5,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,FourthTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,null,null
+
+
+# Created at 2021-11-26T19:59:35.234
+Unexpected IOException: 9,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,FourthTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,unknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=96.0.4664.45)\000ABuild info: version: '4.0.0'\002C revision: '3a21814679'\000ASystem info: host: 'DESKTOP-GEM2PDO'\002C ip: '192.168.211.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_291'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [a07f4b75eef28ae6785d8ae04d4bc409\002C get {url=http://www.musala.com/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 96.0.4664.45\002C chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46...\002C userDataDir: C:\005CUsers\005Csoft\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:1035}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:1035/devtool...\002C se:cdpVersion: 96.0.4664.45\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: a07f4b75eef28ae6785d8ae04d4bc409,null
+
+
+# Created at 2021-11-26T19:59:35.237
+Unexpected IOException: 9,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,TearDownTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,null,null
+
+
+# Created at 2021-11-26T19:59:35.239
+Unexpected IOException: 9,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,BaseTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,null,null
+
+
+# Created at 2021-11-26T19:59:35.240
+Unexpected IOException: 5,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,SecondTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,null,null
+
+
+# Created at 2021-11-26T19:59:35.242
+Unexpected IOException: 9,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,SecondTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,unknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=96.0.4664.45)\000ABuild info: version: '4.0.0'\002C revision: '3a21814679'\000ASystem info: host: 'DESKTOP-GEM2PDO'\002C ip: '192.168.211.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_291'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [a07f4b75eef28ae6785d8ae04d4bc409\002C get {url=http://www.musala.com/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 96.0.4664.45\002C chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46...\002C userDataDir: C:\005CUsers\005Csoft\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:1035}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:1035/devtool...\002C se:cdpVersion: 96.0.4664.45\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: a07f4b75eef28ae6785d8ae04d4bc409,null
+
+
+# Created at 2021-11-26T19:59:35.243
+Unexpected IOException: 9,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,TearDownTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,null,null
+
+
+# Created at 2021-11-26T19:59:35.245
+Unexpected IOException: 9,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,BaseTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,null,null
+
+
+# Created at 2021-11-26T19:59:35.246
+Unexpected IOException: 5,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,ThirdTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,null,null
+
+
+# Created at 2021-11-26T19:59:35.248
+Unexpected IOException: 9,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,ThirdTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,unknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=96.0.4664.45)\000ABuild info: version: '4.0.0'\002C revision: '3a21814679'\000ASystem info: host: 'DESKTOP-GEM2PDO'\002C ip: '192.168.211.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_291'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [a07f4b75eef28ae6785d8ae04d4bc409\002C get {url=http://www.musala.com/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 96.0.4664.45\002C chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46...\002C userDataDir: C:\005CUsers\005Csoft\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:1035}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:1035/devtool...\002C se:cdpVersion: 96.0.4664.45\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: a07f4b75eef28ae6785d8ae04d4bc409,null
+
+
+# Created at 2021-11-26T19:59:35.250
+Unexpected IOException: 9,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,TearDownTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,null,null
+
+
+# Created at 2021-11-26T19:59:35.517
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,null,null,null
+
+

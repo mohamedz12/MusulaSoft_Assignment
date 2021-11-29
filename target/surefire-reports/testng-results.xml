@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="184987" started-at="2021-11-27T22:59:27 EET" finished-at="2021-11-27T23:02:32 EET">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="184987" started-at="2021-11-27T22:59:27 EET" finished-at="2021-11-27T23:02:32 EET">
+      <class name="MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests">
+        <test-method status="PASS" signature="BeforeTests()[pri:0, instance:MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests@3fd7a715]" name="BeforeTests" is-config="true" duration-ms="4944" started-at="2021-11-27T22:59:27 EET" finished-at="2021-11-27T22:59:32 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTests -->
+        <test-method status="PASS" signature="BaseTest()[pri:0, instance:MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests@3fd7a715]" name="BaseTest" is-config="true" duration-ms="38434" started-at="2021-11-27T22:59:32 EET" finished-at="2021-11-27T23:00:10 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseTest -->
+        <test-method status="PASS" signature="FirstTest()[pri:0, instance:MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests@3fd7a715]" name="FirstTest" duration-ms="11934" started-at="2021-11-27T23:00:10 EET" finished-at="2021-11-27T23:00:22 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstTest -->
+        <test-method status="PASS" signature="TearDownTest(org.testng.ITestResult)[pri:0, instance:MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests@3fd7a715]" name="TearDownTest" is-config="true" duration-ms="977" started-at="2021-11-27T23:00:22 EET" finished-at="2021-11-27T23:00:23 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FirstTest status=SUCCESS method=AssignmentTests.FirstTest()[pri:0, instance:MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests@3fd7a715] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownTest -->
+        <test-method status="PASS" signature="BaseTest()[pri:0, instance:MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests@3fd7a715]" name="BaseTest" is-config="true" duration-ms="14471" started-at="2021-11-27T23:00:23 EET" finished-at="2021-11-27T23:00:38 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseTest -->
+        <test-method status="PASS" signature="FourthTest()[pri:0, instance:MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests@3fd7a715]" name="FourthTest" duration-ms="23247" started-at="2021-11-27T23:00:38 EET" finished-at="2021-11-27T23:01:01 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FourthTest -->
+        <test-method status="PASS" signature="TearDownTest(org.testng.ITestResult)[pri:0, instance:MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests@3fd7a715]" name="TearDownTest" is-config="true" duration-ms="791" started-at="2021-11-27T23:01:01 EET" finished-at="2021-11-27T23:01:02 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FourthTest status=SUCCESS method=AssignmentTests.FourthTest()[pri:0, instance:MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests@3fd7a715] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownTest -->
+        <test-method status="PASS" signature="BaseTest()[pri:0, instance:MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests@3fd7a715]" name="BaseTest" is-config="true" duration-ms="15491" started-at="2021-11-27T23:01:02 EET" finished-at="2021-11-27T23:01:17 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseTest -->
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests@3fd7a715]" name="SecondTest" duration-ms="21431" started-at="2021-11-27T23:01:17 EET" finished-at="2021-11-27T23:01:39 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method status="PASS" signature="TearDownTest(org.testng.ITestResult)[pri:0, instance:MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests@3fd7a715]" name="TearDownTest" is-config="true" duration-ms="1359" started-at="2021-11-27T23:01:39 EET" finished-at="2021-11-27T23:01:40 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SecondTest status=SUCCESS method=AssignmentTests.SecondTest()[pri:0, instance:MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests@3fd7a715] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownTest -->
+        <test-method status="PASS" signature="BaseTest()[pri:0, instance:MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests@3fd7a715]" name="BaseTest" is-config="true" duration-ms="25689" started-at="2021-11-27T23:01:40 EET" finished-at="2021-11-27T23:02:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseTest -->
+        <test-method status="PASS" signature="ThirdTest()[pri:0, instance:MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests@3fd7a715]" name="ThirdTest" duration-ms="21391" started-at="2021-11-27T23:02:06 EET" finished-at="2021-11-27T23:02:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdTest -->
+        <test-method status="PASS" signature="TearDownTest(org.testng.ITestResult)[pri:0, instance:MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests@3fd7a715]" name="TearDownTest" is-config="true" duration-ms="3416" started-at="2021-11-27T23:02:27 EET" finished-at="2021-11-27T23:02:30 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ThirdTest status=SUCCESS method=AssignmentTests.ThirdTest()[pri:0, instance:MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests@3fd7a715] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownTest -->
+        <test-method status="PASS" signature="ExitExtentReport()[pri:0, instance:MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests@3fd7a715]" name="ExitExtentReport" is-config="true" duration-ms="1311" started-at="2021-11-27T23:02:30 EET" finished-at="2021-11-27T23:02:32 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExitExtentReport -->
+      </class> <!-- MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

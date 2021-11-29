@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Assignment Tests" parallel="tests" thread-count="5"  >
+	<test  name="Test" parallel="methods" thread-count="5" >
+		<classes>
+			<class name="MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests" />
+		</classes>
+	</test>
+</suite>
+<!-- Suite -->

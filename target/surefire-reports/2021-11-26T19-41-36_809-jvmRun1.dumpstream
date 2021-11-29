@@ -1,0 +1,1032 @@
+# Created at 2021-11-26T19:41:55.325
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2021-11-26T19:41:58.425
+Unexpected IOException: 8,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,FirstTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,chrome not reachable\000A  (Session info: chrome=96.0.4664.45)\000ABuild info: version: '4.0.0'\002C revision: '3a21814679'\000ASystem info: host: 'DESKTOP-GEM2PDO'\002C ip: '192.168.211.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_291'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ac0f182dde3e1ccdcafe622ebaa075a7\002C findElement {using=xpath\002C value=//a[@href='#contact_form_pop']}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 96.0.4664.45\002C chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46...\002C userDataDir: C:\005CUsers\005Csoft\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:29884}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:29884/devtoo...\002C se:cdpVersion: 96.0.4664.45\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ac0f182dde3e1ccdcafe622ebaa075a7,null,chrome not reachable\000A  (Session info: chrome=96.0.4664.45)\000ABuild info: version: '4.0.0'\002C revision: '3a21814679'\000ASystem info: host: 'DESKTOP-GEM2PDO'\002C ip: '192.168.211.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_291'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ac0f182dde3e1ccdcafe622ebaa075a7\002C findElement {using=xpath\002C value=//a[@href='#contact_form_pop']}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 96.0.4664.45\002C chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46...\002C userDataDir: C:\005CUsers\005Csoft\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:29884}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:29884/devtoo...\002C se:cdpVersion: 96.0.4664.45\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ac0f182dde3e1ccdcafe622ebaa075a7,AssignmentTests.FirstTest:49 \00BB WebDriver chrome not reachable\000A  (Session info:...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=96.0.4664.45)\000ABuild info: version: '4.0.0'\002C revision: '3a21814679'\000ASystem info: host: 'DESKTOP-GEM2PDO'\002C ip: '192.168.211.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_291'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ac0f182dde3e1ccdcafe622ebaa075a7\002C findElement {using=xpath\002C value=//a[@href='#contact_form_pop']}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 96.0.4664.45\002C chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46...\002C userDataDir: C:\005CUsers\005Csoft\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:29884}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:29884/devtoo...\002C se:cdpVersion: 96.0.4664.45\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ac0f182dde3e1ccdcafe622ebaa075a7\000A\0009at MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests.FirstTest(AssignmentTests.java:49)\000A
+
+
+# Created at 2021-11-26T19:41:59.074
+Unexpected IOException with stream: S
+
+# Created at 2021-11-26T19:41:59.074
+Unexpected IOException with stream: t
+
+# Created at 2021-11-26T19:41:59.074
+Unexpected IOException with stream: a
+
+# Created at 2021-11-26T19:41:59.074
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.074
+Unexpected IOException with stream: t
+
+# Created at 2021-11-26T19:41:59.074
+Unexpected IOException with stream: i
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: n
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: g
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: C
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: h
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: o
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: m
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: D
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: i
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: v
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: 9
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: 6
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: .
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: 0
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: .
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: 4
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: 6
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: 6
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: 4
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: .
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: 4
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: 5
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: (
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: 7
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: 6
+
+# Created at 2021-11-26T19:41:59.090
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: 4
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: c
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: 1
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: b
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: b
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: 2
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: a
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: b
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: 4
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: 6
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: 7
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: 1
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: b
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: 8
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: b
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: b
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: a
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: 3
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: 4
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: 4
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: 4
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: 6
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: 1
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: c
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: 0
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: f
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: 1
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: 7
+
+# Created at 2021-11-26T19:41:59.106
+Unexpected IOException with stream: 5
+
+# Created at 2021-11-26T19:41:59.121
+Unexpected IOException with stream: 8
+
+# Created at 2021-11-26T19:41:59.121
+Unexpected IOException with stream: 4
+
+# Created at 2021-11-26T19:41:59.121
+Unexpected IOException with stream: b
+
+# Created at 2021-11-26T19:41:59.121
+Unexpected IOException with stream: 2
+
+# Created at 2021-11-26T19:41:59.121
+Unexpected IOException with stream: f
+
+# Created at 2021-11-26T19:41:59.121
+Unexpected IOException with stream: c
+
+# Created at 2021-11-26T19:41:59.121
+Unexpected IOException with stream: -
+
+# Created at 2021-11-26T19:41:59.126
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.127
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.127
+Unexpected IOException with stream: f
+
+# Created at 2021-11-26T19:41:59.128
+Unexpected IOException with stream: s
+
+# Created at 2021-11-26T19:41:59.128
+Unexpected IOException with stream: /
+
+# Created at 2021-11-26T19:41:59.129
+Unexpected IOException with stream: b
+
+# Created at 2021-11-26T19:41:59.129
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.130
+Unexpected IOException with stream: a
+
+# Created at 2021-11-26T19:41:59.130
+Unexpected IOException with stream: n
+
+# Created at 2021-11-26T19:41:59.131
+Unexpected IOException with stream: c
+
+# Created at 2021-11-26T19:41:59.131
+Unexpected IOException with stream: h
+
+# Created at 2021-11-26T19:41:59.132
+Unexpected IOException with stream: -
+
+# Created at 2021-11-26T19:41:59.132
+Unexpected IOException with stream: h
+
+# Created at 2021-11-26T19:41:59.133
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.134
+Unexpected IOException with stream: a
+
+# Created at 2021-11-26T19:41:59.135
+Unexpected IOException with stream: d
+
+# Created at 2021-11-26T19:41:59.136
+Unexpected IOException with stream: s
+
+# Created at 2021-11-26T19:41:59.138
+Unexpected IOException with stream: /
+
+# Created at 2021-11-26T19:41:59.138
+Unexpected IOException with stream: 4
+
+# Created at 2021-11-26T19:41:59.139
+Unexpected IOException with stream: 6
+
+# Created at 2021-11-26T19:41:59.139
+Unexpected IOException with stream: 6
+
+# Created at 2021-11-26T19:41:59.140
+Unexpected IOException with stream: 4
+
+# Created at 2021-11-26T19:41:59.140
+Unexpected IOException with stream: @
+
+# Created at 2021-11-26T19:41:59.141
+Unexpected IOException with stream: {
+
+# Created at 2021-11-26T19:41:59.142
+Unexpected IOException with stream: #
+
+# Created at 2021-11-26T19:41:59.142
+Unexpected IOException with stream: 9
+
+# Created at 2021-11-26T19:41:59.143
+Unexpected IOException with stream: 4
+
+# Created at 2021-11-26T19:41:59.143
+Unexpected IOException with stream: 7
+
+# Created at 2021-11-26T19:41:59.144
+Unexpected IOException with stream: }
+
+# Created at 2021-11-26T19:41:59.144
+Unexpected IOException with stream: )
+
+# Created at 2021-11-26T19:41:59.145
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.145
+Unexpected IOException with stream: o
+
+# Created at 2021-11-26T19:41:59.146
+Unexpected IOException with stream: n
+
+# Created at 2021-11-26T19:41:59.146
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.147
+Unexpected IOException with stream: p
+
+# Created at 2021-11-26T19:41:59.147
+Unexpected IOException with stream: o
+
+# Created at 2021-11-26T19:41:59.149
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.150
+Unexpected IOException with stream: t
+
+# Created at 2021-11-26T19:41:59.151
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.153
+Unexpected IOException with stream: 4
+
+# Created at 2021-11-26T19:41:59.154
+Unexpected IOException with stream: 9
+
+# Created at 2021-11-26T19:41:59.154
+Unexpected IOException with stream: 1
+
+# Created at 2021-11-26T19:41:59.155
+Unexpected IOException with stream: 8
+
+# Created at 2021-11-26T19:41:59.155
+Unexpected IOException with stream: 5
+
+# Created at 2021-11-26T19:41:59.156
+Unexpected IOException with stream: 
+
+# Created at 2021-11-26T19:41:59.157
+Unexpected IOException with stream: 
+
+
+# Created at 2021-11-26T19:41:59.157
+Unexpected IOException with stream: O
+
+# Created at 2021-11-26T19:41:59.158
+Unexpected IOException with stream: n
+
+# Created at 2021-11-26T19:41:59.159
+Unexpected IOException with stream: l
+
+# Created at 2021-11-26T19:41:59.159
+Unexpected IOException with stream: y
+
+# Created at 2021-11-26T19:41:59.160
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.160
+Unexpected IOException with stream: l
+
+# Created at 2021-11-26T19:41:59.161
+Unexpected IOException with stream: o
+
+# Created at 2021-11-26T19:41:59.161
+Unexpected IOException with stream: c
+
+# Created at 2021-11-26T19:41:59.162
+Unexpected IOException with stream: a
+
+# Created at 2021-11-26T19:41:59.162
+Unexpected IOException with stream: l
+
+# Created at 2021-11-26T19:41:59.163
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.164
+Unexpected IOException with stream: c
+
+# Created at 2021-11-26T19:41:59.164
+Unexpected IOException with stream: o
+
+# Created at 2021-11-26T19:41:59.167
+Unexpected IOException with stream: n
+
+# Created at 2021-11-26T19:41:59.168
+Unexpected IOException with stream: n
+
+# Created at 2021-11-26T19:41:59.169
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.170
+Unexpected IOException with stream: c
+
+# Created at 2021-11-26T19:41:59.170
+Unexpected IOException with stream: t
+
+# Created at 2021-11-26T19:41:59.171
+Unexpected IOException with stream: i
+
+# Created at 2021-11-26T19:41:59.171
+Unexpected IOException with stream: o
+
+# Created at 2021-11-26T19:41:59.171
+Unexpected IOException with stream: n
+
+# Created at 2021-11-26T19:41:59.172
+Unexpected IOException with stream: s
+
+# Created at 2021-11-26T19:41:59.172
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.173
+Unexpected IOException with stream: a
+
+# Created at 2021-11-26T19:41:59.173
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.174
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.174
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.174
+Unexpected IOException with stream: a
+
+# Created at 2021-11-26T19:41:59.175
+Unexpected IOException with stream: l
+
+# Created at 2021-11-26T19:41:59.175
+Unexpected IOException with stream: l
+
+# Created at 2021-11-26T19:41:59.176
+Unexpected IOException with stream: o
+
+# Created at 2021-11-26T19:41:59.176
+Unexpected IOException with stream: w
+
+# Created at 2021-11-26T19:41:59.177
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.177
+Unexpected IOException with stream: d
+
+# Created at 2021-11-26T19:41:59.178
+Unexpected IOException with stream: .
+
+# Created at 2021-11-26T19:41:59.178
+Unexpected IOException with stream: 
+
+# Created at 2021-11-26T19:41:59.179
+Unexpected IOException with stream: 
+
+
+# Created at 2021-11-26T19:41:59.179
+Unexpected IOException with stream: P
+
+# Created at 2021-11-26T19:41:59.180
+Unexpected IOException with stream: l
+
+# Created at 2021-11-26T19:41:59.180
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.181
+Unexpected IOException with stream: a
+
+# Created at 2021-11-26T19:41:59.181
+Unexpected IOException with stream: s
+
+# Created at 2021-11-26T19:41:59.183
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.184
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.185
+Unexpected IOException with stream: s
+
+# Created at 2021-11-26T19:41:59.186
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.187
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.187
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.188
+Unexpected IOException with stream: h
+
+# Created at 2021-11-26T19:41:59.188
+Unexpected IOException with stream: t
+
+# Created at 2021-11-26T19:41:59.189
+Unexpected IOException with stream: t
+
+# Created at 2021-11-26T19:41:59.189
+Unexpected IOException with stream: p
+
+# Created at 2021-11-26T19:41:59.190
+Unexpected IOException with stream: s
+
+# Created at 2021-11-26T19:41:59.190
+Unexpected IOException with stream: :
+
+# Created at 2021-11-26T19:41:59.191
+Unexpected IOException with stream: /
+
+# Created at 2021-11-26T19:41:59.191
+Unexpected IOException with stream: /
+
+# Created at 2021-11-26T19:41:59.192
+Unexpected IOException with stream: c
+
+# Created at 2021-11-26T19:41:59.192
+Unexpected IOException with stream: h
+
+# Created at 2021-11-26T19:41:59.192
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.193
+Unexpected IOException with stream: o
+
+# Created at 2021-11-26T19:41:59.193
+Unexpected IOException with stream: m
+
+# Created at 2021-11-26T19:41:59.194
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.194
+Unexpected IOException with stream: d
+
+# Created at 2021-11-26T19:41:59.195
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.195
+Unexpected IOException with stream: i
+
+# Created at 2021-11-26T19:41:59.196
+Unexpected IOException with stream: v
+
+# Created at 2021-11-26T19:41:59.197
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.197
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.198
+Unexpected IOException with stream: .
+
+# Created at 2021-11-26T19:41:59.200
+Unexpected IOException with stream: c
+
+# Created at 2021-11-26T19:41:59.201
+Unexpected IOException with stream: h
+
+# Created at 2021-11-26T19:41:59.203
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.203
+Unexpected IOException with stream: o
+
+# Created at 2021-11-26T19:41:59.204
+Unexpected IOException with stream: m
+
+# Created at 2021-11-26T19:41:59.205
+Unexpected IOException with stream: i
+
+# Created at 2021-11-26T19:41:59.205
+Unexpected IOException with stream: u
+
+# Created at 2021-11-26T19:41:59.206
+Unexpected IOException with stream: m
+
+# Created at 2021-11-26T19:41:59.206
+Unexpected IOException with stream: .
+
+# Created at 2021-11-26T19:41:59.207
+Unexpected IOException with stream: o
+
+# Created at 2021-11-26T19:41:59.207
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.208
+Unexpected IOException with stream: g
+
+# Created at 2021-11-26T19:41:59.208
+Unexpected IOException with stream: /
+
+# Created at 2021-11-26T19:41:59.209
+Unexpected IOException with stream: s
+
+# Created at 2021-11-26T19:41:59.209
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.210
+Unexpected IOException with stream: c
+
+# Created at 2021-11-26T19:41:59.210
+Unexpected IOException with stream: u
+
+# Created at 2021-11-26T19:41:59.210
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.211
+Unexpected IOException with stream: i
+
+# Created at 2021-11-26T19:41:59.211
+Unexpected IOException with stream: t
+
+# Created at 2021-11-26T19:41:59.212
+Unexpected IOException with stream: y
+
+# Created at 2021-11-26T19:41:59.212
+Unexpected IOException with stream: -
+
+# Created at 2021-11-26T19:41:59.213
+Unexpected IOException with stream: c
+
+# Created at 2021-11-26T19:41:59.213
+Unexpected IOException with stream: o
+
+# Created at 2021-11-26T19:41:59.214
+Unexpected IOException with stream: n
+
+# Created at 2021-11-26T19:41:59.214
+Unexpected IOException with stream: s
+
+# Created at 2021-11-26T19:41:59.215
+Unexpected IOException with stream: i
+
+# Created at 2021-11-26T19:41:59.216
+Unexpected IOException with stream: d
+
+# Created at 2021-11-26T19:41:59.217
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.218
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.219
+Unexpected IOException with stream: a
+
+# Created at 2021-11-26T19:41:59.219
+Unexpected IOException with stream: t
+
+# Created at 2021-11-26T19:41:59.220
+Unexpected IOException with stream: i
+
+# Created at 2021-11-26T19:41:59.220
+Unexpected IOException with stream: o
+
+# Created at 2021-11-26T19:41:59.220
+Unexpected IOException with stream: n
+
+# Created at 2021-11-26T19:41:59.221
+Unexpected IOException with stream: s
+
+# Created at 2021-11-26T19:41:59.221
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.221
+Unexpected IOException with stream: f
+
+# Created at 2021-11-26T19:41:59.222
+Unexpected IOException with stream: o
+
+# Created at 2021-11-26T19:41:59.223
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.223
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.224
+Unexpected IOException with stream: s
+
+# Created at 2021-11-26T19:41:59.224
+Unexpected IOException with stream: u
+
+# Created at 2021-11-26T19:41:59.225
+Unexpected IOException with stream: g
+
+# Created at 2021-11-26T19:41:59.225
+Unexpected IOException with stream: g
+
+# Created at 2021-11-26T19:41:59.226
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.227
+Unexpected IOException with stream: s
+
+# Created at 2021-11-26T19:41:59.227
+Unexpected IOException with stream: t
+
+# Created at 2021-11-26T19:41:59.227
+Unexpected IOException with stream: i
+
+# Created at 2021-11-26T19:41:59.228
+Unexpected IOException with stream: o
+
+# Created at 2021-11-26T19:41:59.228
+Unexpected IOException with stream: n
+
+# Created at 2021-11-26T19:41:59.229
+Unexpected IOException with stream: s
+
+# Created at 2021-11-26T19:41:59.234
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.236
+Unexpected IOException with stream: o
+
+# Created at 2021-11-26T19:41:59.237
+Unexpected IOException with stream: n
+
+# Created at 2021-11-26T19:41:59.237
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.238
+Unexpected IOException with stream: k
+
+# Created at 2021-11-26T19:41:59.239
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.239
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.240
+Unexpected IOException with stream: p
+
+# Created at 2021-11-26T19:41:59.241
+Unexpected IOException with stream: i
+
+# Created at 2021-11-26T19:41:59.241
+Unexpected IOException with stream: n
+
+# Created at 2021-11-26T19:41:59.242
+Unexpected IOException with stream: g
+
+# Created at 2021-11-26T19:41:59.243
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.243
+Unexpected IOException with stream: C
+
+# Created at 2021-11-26T19:41:59.244
+Unexpected IOException with stream: h
+
+# Created at 2021-11-26T19:41:59.245
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.245
+Unexpected IOException with stream: o
+
+# Created at 2021-11-26T19:41:59.246
+Unexpected IOException with stream: m
+
+# Created at 2021-11-26T19:41:59.246
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.246
+Unexpected IOException with stream: D
+
+# Created at 2021-11-26T19:41:59.247
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.247
+Unexpected IOException with stream: i
+
+# Created at 2021-11-26T19:41:59.249
+Unexpected IOException with stream: v
+
+# Created at 2021-11-26T19:41:59.250
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.251
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.252
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.252
+Unexpected IOException with stream: s
+
+# Created at 2021-11-26T19:41:59.253
+Unexpected IOException with stream: a
+
+# Created at 2021-11-26T19:41:59.253
+Unexpected IOException with stream: f
+
+# Created at 2021-11-26T19:41:59.254
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.254
+Unexpected IOException with stream: .
+
+# Created at 2021-11-26T19:41:59.255
+Unexpected IOException with stream: 
+
+# Created at 2021-11-26T19:41:59.255
+Unexpected IOException with stream: 
+
+
+# Created at 2021-11-26T19:41:59.256
+Unexpected IOException with stream: C
+
+# Created at 2021-11-26T19:41:59.257
+Unexpected IOException with stream: h
+
+# Created at 2021-11-26T19:41:59.258
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.259
+Unexpected IOException with stream: o
+
+# Created at 2021-11-26T19:41:59.260
+Unexpected IOException with stream: m
+
+# Created at 2021-11-26T19:41:59.261
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.261
+Unexpected IOException with stream: D
+
+# Created at 2021-11-26T19:41:59.261
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.262
+Unexpected IOException with stream: i
+
+# Created at 2021-11-26T19:41:59.262
+Unexpected IOException with stream: v
+
+# Created at 2021-11-26T19:41:59.262
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.263
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.263
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.263
+Unexpected IOException with stream: w
+
+# Created at 2021-11-26T19:41:59.264
+Unexpected IOException with stream: a
+
+# Created at 2021-11-26T19:41:59.264
+Unexpected IOException with stream: s
+
+# Created at 2021-11-26T19:41:59.265
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.266
+Unexpected IOException with stream: s
+
+# Created at 2021-11-26T19:41:59.267
+Unexpected IOException with stream: t
+
+# Created at 2021-11-26T19:41:59.268
+Unexpected IOException with stream: a
+
+# Created at 2021-11-26T19:41:59.270
+Unexpected IOException with stream: r
+
+# Created at 2021-11-26T19:41:59.270
+Unexpected IOException with stream: t
+
+# Created at 2021-11-26T19:41:59.271
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.272
+Unexpected IOException with stream: d
+
+# Created at 2021-11-26T19:41:59.272
+Unexpected IOException with stream:  
+
+# Created at 2021-11-26T19:41:59.273
+Unexpected IOException with stream: s
+
+# Created at 2021-11-26T19:41:59.273
+Unexpected IOException with stream: u
+
+# Created at 2021-11-26T19:41:59.274
+Unexpected IOException with stream: c
+
+# Created at 2021-11-26T19:41:59.274
+Unexpected IOException with stream: c
+
+# Created at 2021-11-26T19:41:59.274
+Unexpected IOException with stream: e
+
+# Created at 2021-11-26T19:41:59.275
+Unexpected IOException with stream: s
+
+# Created at 2021-11-26T19:41:59.275
+Unexpected IOException with stream: s
+
+# Created at 2021-11-26T19:41:59.275
+Unexpected IOException with stream: f
+
+# Created at 2021-11-26T19:41:59.276
+Unexpected IOException with stream: u
+
+# Created at 2021-11-26T19:41:59.276
+Unexpected IOException with stream: l
+
+# Created at 2021-11-26T19:41:59.277
+Unexpected IOException with stream: l
+
+# Created at 2021-11-26T19:41:59.277
+Unexpected IOException with stream: y
+
+# Created at 2021-11-26T19:41:59.277
+Unexpected IOException with stream: .
+
+# Created at 2021-11-26T19:41:59.278
+Unexpected IOException with stream: 
+
+# Created at 2021-11-26T19:41:59.278
+Unexpected IOException with stream: 
+
+
+# Created at 2021-11-26T19:42:00.634
+Unexpected IOException with stream: Nov 26, 2021 7:42:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2021-11-26T19:42:00.790
+Unexpected IOException with stream: Nov 26, 2021 7:42:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 96, so returning the closest version found: 95
+
+
+# Created at 2021-11-26T19:42:00.791
+Unexpected IOException with stream: Nov 26, 2021 7:42:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 96 of 95
+
+
+# Created at 2021-11-26T19:42:02.333
+Unexpected IOException: 8,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,BaseTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,unknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=96.0.4664.45)\000ABuild info: version: '4.0.0'\002C revision: '3a21814679'\000ASystem info: host: 'DESKTOP-GEM2PDO'\002C ip: '192.168.211.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_291'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [3cff90491b98d27ff37ad50a5b18d2f1\002C get {url=http://www.musala.com/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 96.0.4664.45\002C chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46...\002C userDataDir: C:\005CUsers\005Csoft\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:29931}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:29931/devtoo...\002C se:cdpVersion: 96.0.4664.45\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 3cff90491b98d27ff37ad50a5b18d2f1,null,unknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=96.0.4664.45)\000ABuild info: version: '4.0.0'\002C revision: '3a21814679'\000ASystem info: host: 'DESKTOP-GEM2PDO'\002C ip: '192.168.211.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_291'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [3cff90491b98d27ff37ad50a5b18d2f1\002C get {url=http://www.musala.com/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 96.0.4664.45\002C chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46...\002C userDataDir: C:\005CUsers\005Csoft\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:29931}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:29931/devtoo...\002C se:cdpVersion: 96.0.4664.45\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 3cff90491b98d27ff37ad50a5b18d2f1,AssignmentTests.BaseTest:43 \00BB WebDriver unknown error: cannot determine loadin...,org.openqa.selenium.WebDriverException: \000Aunknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=96.0.4664.45)\000ABuild info: version: '4.0.0'\002C revision: '3a21814679'\000ASystem info: host: 'DESKTOP-GEM2PDO'\002C ip: '192.168.211.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_291'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [3cff90491b98d27ff37ad50a5b18d2f1\002C get {url=http://www.musala.com/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 96.0.4664.45\002C chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46...\002C userDataDir: C:\005CUsers\005Csoft\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:29931}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:29931/devtoo...\002C se:cdpVersion: 96.0.4664.45\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 3cff90491b98d27ff37ad50a5b18d2f1\000A\0009at MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests.BaseTest(AssignmentTests.java:43)\000A
+
+
+# Created at 2021-11-26T19:42:02.335
+Unexpected IOException: 5,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,FourthTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,null,null
+
+
+# Created at 2021-11-26T19:42:02.338
+Unexpected IOException: 9,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,FourthTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,unknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=96.0.4664.45)\000ABuild info: version: '4.0.0'\002C revision: '3a21814679'\000ASystem info: host: 'DESKTOP-GEM2PDO'\002C ip: '192.168.211.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_291'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [3cff90491b98d27ff37ad50a5b18d2f1\002C get {url=http://www.musala.com/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 96.0.4664.45\002C chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46...\002C userDataDir: C:\005CUsers\005Csoft\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:29931}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:29931/devtoo...\002C se:cdpVersion: 96.0.4664.45\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 3cff90491b98d27ff37ad50a5b18d2f1,null
+
+
+# Created at 2021-11-26T19:42:02.343
+Unexpected IOException: 9,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,TearDownTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,null,null
+
+
+# Created at 2021-11-26T19:42:02.367
+Unexpected IOException: 9,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,BaseTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,null,null
+
+
+# Created at 2021-11-26T19:42:02.369
+Unexpected IOException: 5,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,SecondTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,null,null
+
+
+# Created at 2021-11-26T19:42:02.371
+Unexpected IOException: 9,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,SecondTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,unknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=96.0.4664.45)\000ABuild info: version: '4.0.0'\002C revision: '3a21814679'\000ASystem info: host: 'DESKTOP-GEM2PDO'\002C ip: '192.168.211.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_291'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [3cff90491b98d27ff37ad50a5b18d2f1\002C get {url=http://www.musala.com/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 96.0.4664.45\002C chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46...\002C userDataDir: C:\005CUsers\005Csoft\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:29931}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:29931/devtoo...\002C se:cdpVersion: 96.0.4664.45\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 3cff90491b98d27ff37ad50a5b18d2f1,null
+
+
+# Created at 2021-11-26T19:42:02.372
+Unexpected IOException: 9,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,TearDownTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,null,null
+
+
+# Created at 2021-11-26T19:42:02.374
+Unexpected IOException: 9,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,BaseTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,null,null
+
+
+# Created at 2021-11-26T19:42:02.377
+Unexpected IOException: 5,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,ThirdTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,null,null
+
+
+# Created at 2021-11-26T19:42:02.378
+Unexpected IOException: 9,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,ThirdTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,unknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=96.0.4664.45)\000ABuild info: version: '4.0.0'\002C revision: '3a21814679'\000ASystem info: host: 'DESKTOP-GEM2PDO'\002C ip: '192.168.211.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_291'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [3cff90491b98d27ff37ad50a5b18d2f1\002C get {url=http://www.musala.com/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 96.0.4664.45\002C chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46...\002C userDataDir: C:\005CUsers\005Csoft\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:29931}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:29931/devtoo...\002C se:cdpVersion: 96.0.4664.45\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 3cff90491b98d27ff37ad50a5b18d2f1,null
+
+
+# Created at 2021-11-26T19:42:02.384
+Unexpected IOException: 9,1,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,TearDownTest(MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests),null,null,null
+
+
+# Created at 2021-11-26T19:42:02.633
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,MusalaSoft_Project.MusalaSoft_Assignment.AssignmentTests,null,null,null
+
+
